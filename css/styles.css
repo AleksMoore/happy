@@ -385,8 +385,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  background-image: url(assets/images/main.png);
-  background-image: -webkit-image-set(url(assets/images/main.png) 1x, url(assets/images/main@x2.png) 2x);
+  background-image: url(../assets/images/main.png);
+  background-image: -webkit-image-set(url(../assets/images/main.png) 1x, url(../assets/images/main@x2.png) 2x);
   position: relative;
   top: -97px; }
   .heading__wrapper {
@@ -611,8 +611,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  background-image: url(assets/images/connect/connect.png);
-  background-image: -webkit-image-set(url(assets/images/connect/connect.png) 1x, url(assets/images/connect/connect@x2.png) 2x); }
+  background-image: url(../assets/images/connect/connect.png);
+  background-image: -webkit-image-set(url(../assets/images/connect/connect.png) 1x, url(../assets/images/connect/connect@x2.png) 2x); }
   .connect__wrapper {
     max-width: 1060px;
     width: 100%;
