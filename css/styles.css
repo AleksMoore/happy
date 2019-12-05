@@ -745,14 +745,16 @@ body {
     max-width: 220px;
     display: flex;
     flex-direction: column; }
-    .footer__link a {
-      text-decoration: none;
-      margin-bottom: 20px;
-      font-size: 14px;
-      font-weight: normal;
-      color: #FFFFFF; }
-      .footer__link a:hover {
-        text-decoration: underline; }
+    .footer__link p {
+      margin: 0; }
+      .footer__link p a {
+        text-decoration: none;
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: normal;
+        color: #FFFFFF; }
+        .footer__link p a:hover {
+          text-decoration: underline; }
 
 /* End Footer */
 /* UnderFooter */
