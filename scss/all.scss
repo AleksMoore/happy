@@ -615,15 +615,19 @@ body {
 		display: flex;
 		flex-direction: column;
 
-		a{
-			text-decoration: none;
-			margin-bottom: 20px;
-			font-size: $main-size;
-			font-weight: normal;
-			color: $white;
+		p{
+			margin: 0;
 
-			&:hover{
-				text-decoration: underline;
+			a{
+				text-decoration: none;
+				margin-bottom: 20px;
+				font-size: $main-size;
+				font-weight: normal;
+				color: $white;
+
+				&:hover{
+					text-decoration: underline;
+				}
 			}
 		}
 	}
