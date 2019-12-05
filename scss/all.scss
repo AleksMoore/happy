@@ -97,13 +97,13 @@ body {
 /* Heading */
 
 .heading {
-    width: 100%;
-    padding: 250px 0 320px;
+	width: 100%;
+    padding: 250px 0 400px;
     display: flex;
     justify-content: center;
     background-repeat: no-repeat;
-    background-size: cover;
-	background-position-x: center;	
+	background-position-x: 80%;
+    background-position-y: 70%;
 	background-image: url(../assets/images/main.png);
 	background-image: -webkit-image-set(url(../assets/images/main.png) 1x,url(../assets/images/main@x2.png) 2x);
 	position: relative;
@@ -411,6 +411,10 @@ body {
 		justify-content: center;
 		align-items: center;
 		margin-bottom: 80px;
+
+		img{
+			max-width: 200px;
+		}
 	}
 }
 
@@ -564,6 +568,10 @@ body {
 		justify-content: center;
 		align-items: center;
 		margin-bottom: 80px;
+
+		img{
+			max-width: 150px;
+		}
 	}
 }
 
