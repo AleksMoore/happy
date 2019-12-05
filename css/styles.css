@@ -746,10 +746,9 @@ body {
     display: flex;
     flex-direction: column; }
     .footer__link p {
-      margin: 0; }
+      margin: 0 0 20px; }
       .footer__link p a {
         text-decoration: none;
-        margin-bottom: 20px;
         font-size: 14px;
         font-weight: normal;
         color: #FFFFFF; }
